@@ -21,3 +21,17 @@ header, body, footer
     margin-right: 25px;
 }
 /* élements corps de la page 
+/* premier cadre rouge */
+.couverture
+{
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    background-image: url('image/backgroung_image.jpg');
+    height: 700px;
+}
+.agencegraphisme
+{
+    font-size: 25px;
+    color: white;
+}

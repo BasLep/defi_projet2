@@ -68,8 +68,44 @@ footer
 {
     display: flex;
     flex-direction: column;
+    background-color: rgb(91, 53, 157);
+    margin-top: 15px;
 }
 .localisation
 {
     text-align: center;
+    color: white;
+    padding-top: 30px;
+}
+.reseau_sociaux
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 30px;
+}
+.fa-twitter, .fa-facebook-f, .fa-instagram
+{
+    font-size: 35px ;
+    color: rgb(189, 174, 216);
+    padding-right: 60px;
+}
+.information_footer
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+.acces_rapide, .a_propos, .coordonnees
+{
+    padding-right: 20px;
+}
+.titre_information
+{
+    color: rgb(189, 174, 216);
+}
+.order_propos
+{
+    color: white;
 }

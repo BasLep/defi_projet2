@@ -35,3 +35,41 @@ header, body, footer
     font-size: 25px;
     color: white;
 }
+/* deuxième cadre rouge */
+.second_cadre_rouge
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+/* premier cadre bleu */ 
+.premier_cadre_bleu
+{
+    margin: 20px;
+}
+/* second cadre bleu */ 
+.information_entreprise
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    width: 550px;
+    text-align: center;
+}
+.troisieme_cadre_bleu
+{
+    text-align: center;
+    margin-top: 15px;
+}
+/* élément pied de page */
+footer
+{
+    display: flex;
+    flex-direction: column;
+}
+.localisation
+{
+    text-align: center;
+}
